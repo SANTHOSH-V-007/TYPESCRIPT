@@ -1,0 +1,91 @@
+TYPESCRIPT:
+
+    -It is a super set of Javascript.
+    -It is strict typed language.
+    -It is compile language.
+
+software install for tyscript:
+
+    -node js
+    npm install -g typescript
+    tsc -v
+    npx install -g typescript
+
+    other method for install tyscript:
+
+    -npx npm install -g typescript
+    -npx tsc -v
+
+how to run a typescript in vs
+
+    - npx tsc filename.tsc
+    - node filename.js.
+
+* How to declare variable 
+syntax: let variableName:datatype
+
+*OOPs:
+    -It is used to write secure code
+    -To perform code reusability
+    -To write optimize code.
+
+1.class 
+    - It is collection of data-member and member-function.
+    - It is template which we can reuse multiple-time.
+    - To create class we can use class keyword,class name must start with captial letter.
+
+    *this - this keyword represent current object.
+
+2.object 
+    -It is a instance of class.by using class object we can access class data member outside class.
+    Syntax: let objName=new ClassName();
+
+*constructor: 
+    - It is a special member-function.
+    - It will execute automatically when class object is created or initilize.
+    - constructor name should be constructor.
+
+    4 pillars of OOPs
+3.Inheritance
+    - Accessing property(data-member and member-function) from parent class to child class.
+    -To access property from parent class to child class we can use extend keyword.
+
+*super keyword():
+    -It represent parent class constructor inside child class.
+    -super  method must be first statement in child class constructor.
+
+4. Polymorphism
+    - It is ability to take more than one form.
+        -Method Overloading: when we have a multiple method with same name in same class.
+        -Method overriding : when we have a multiple method with same name in different class.
+
+5. Encapulation
+    - Wrapping of data into single unit.
+
+*getter and setter:
+    -It is use to control access of class property
+    -If you want to access and modify private and protected data member.
+    -By using getter function we can give read only access.
+    -getter and setter method name must be same.
+    
+6.Abstraction
+    -Hiding unnecessary data frm user and showing only required things.
+    -we can achieve this by using abstract method and interface.
+
+    *Interface: 
+        -It is an signature of class. It contain abstract in it.its child has responsibility to implements interface method.
+        -to implement interface we us implement keyword.
+
+
+*Access Modifier:
+    -Public: this is default access modifier,class property can be accessible inside class,
+        outside and in derived class.
+
+    -protected: class property can be accessible inside class, as well as in derived class only not outside class.
+
+    -private-class property can be accessible inside class.
+
+*Module Concept typescript:
+    -Accessing data from one file to another file.
+    -to send data we use export keyword ad for accessing data we use import keyword.
+

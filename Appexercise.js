@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Bookexercise3_1 = require("./Bookexercise3");
+var libraryexercise3_1 = require("./libraryexercise3");
+var myLibrary = new libraryexercise3_1.Library();
+var book1 = new Bookexercise3_1.Book('The Hobbit', 'J.R.R. Tolkien', '9780547928227');
+var book2 = new Bookexercise3_1.Book('Clean Code', 'Robert Martin', '9780132350884', false);
+myLibrary.addBook(book1);
+myLibrary.addBook(book2);
+myLibrary.listBooks();
+myLibrary.removeBook('9780547928227');
+myLibrary.listBooks();
